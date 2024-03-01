@@ -1,4 +1,4 @@
-// Класс Receptionist для паттерна "Наблюдатель"
+//Observer
 class Receptionist implements Observer {
     @Override
     public void update(String message) {

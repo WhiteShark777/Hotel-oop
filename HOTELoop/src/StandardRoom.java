@@ -1,4 +1,4 @@
-// Класс StandardRoom для наследования и инкапсуляции
+// encapsulation,inheritance
 class StandardRoom implements Room {
     private boolean isBooked;
 

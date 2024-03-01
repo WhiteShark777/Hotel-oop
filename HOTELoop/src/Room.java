@@ -1,4 +1,4 @@
-// Интерфейс Room для полиморфизма
+// Polymorphism
 interface Room {
     void bookRoom();
 

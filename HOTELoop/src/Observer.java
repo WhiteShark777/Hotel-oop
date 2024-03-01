@@ -1,4 +1,4 @@
-// Интерфейс Observer для паттерна "Наблюдатель"
+// Observer
 interface Observer {
     void update(String message);
 }

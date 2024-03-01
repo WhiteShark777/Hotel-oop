@@ -19,13 +19,13 @@ public class Main {
                 case "book":
                     System.out.println("Enter room number to book:");
                     int bookIndex = scanner.nextInt();
-                    scanner.nextLine();  // consume newline left-over
+                    scanner.nextLine();
                     hotel.bookRoom(bookIndex);
                     break;
                 case "cancel":
                     System.out.println("Enter room number to cancel booking:");
                     int cancelIndex = scanner.nextInt();
-                    scanner.nextLine();  // consume newline left-over
+                    scanner.nextLine();
                     hotel.cancelBooking(cancelIndex);
                     break;
                 case "check":

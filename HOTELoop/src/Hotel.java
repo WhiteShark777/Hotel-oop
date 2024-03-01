@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-// Класс Hotel для наследования и инкапсуляции
+//encapsulation,inheritance
 class Hotel {
     private List<Room> rooms;
     private List<Observer> observers;
